@@ -1,0 +1,54 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+
+body {
+background:  #6D7B8D;
+}
+
+.container {
+border:  double;
+height: 465px;
+width:  80%;
+color: #fff;
+border-radius: 8px;
+background:  #646D7E;
+}
+
+
+h1 {
+color: #fff;
+font-size: 30px;
+font-family: monospace;
+margin-top: 10px;
+}
+
+
+#jokeDisplay {
+color: #fff;
+font-size: 20px;
+font-family: sans-serif;
+margin-right: 27px;
+margin-left: 27px;
+}
+
+button {
+color: #fff;
+font-size: 18px;
+font-family: "Roboto",sans-serif;
+background:   #98AFC7;
+height: 40px;
+width: 99px;
+border: 2px solid white;
+border-radius: 4px;
+outline: none;
+margin-left: 50%;
+}
+
+button:hover {
+color: #000;
+background: #fff;
+border: 2px solid darkorange;
+}

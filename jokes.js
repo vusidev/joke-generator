@@ -1,0 +1,7 @@
+const  jokes = ["CAN WE MEET? This statement alone can make a girl tell you she lives in Canada", "Girls are so clever they can introduce 3Boyfriends to each other at the sametime without causing a fight.She will be like , My love meet my sweetheart and my one and only boo and you will see the 3 idiot smiling at each other and say Hi boss whats good.", "Yesterday I gave a homeless man some food. Today he gave me a book called How To Cook.","If youre sitting in public and a stranger takes the seat next to you, just stare straight ahead and say, Did you bring the money?", "When one door closes and another door opens, you are probably in prison.", "The more I get to know people The more I realize why Noah only let animals on the boat.",  "How do you even start arguing with a lastborn , I mean Someone who has never seen her mother pregnant.", "Im a comedian so in case you see me In bed with your girlfriend we are just joking together dont panic.", "After I give an advice,I always end my sentence with i dont know though. So you can never say I ruined your life.", "One of the reason I dont like eating in the toilet is because of those  flies they beg alot."];
+
+
+function newJoke() {
+const randomNumber = Math.floor(Math.random() * (jokes.length));
+document.getElementById("jokeDisplay").innerHTML = jokes[randomNumber];
+}
